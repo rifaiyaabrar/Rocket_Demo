@@ -183,15 +183,60 @@
                                         <li>
                                             <a class="text-darkgreen leading-30" href="./contact.html">Contact</a>
                                         </li>
+                                        <li>
+                                            <a href="javascript:void(0)">
+                                                <div class="dropdown">
+
+
+                                                    <div
+                                                        class="text-darkgreen leading-30 dropbtn flex items-center pl-40 pr-25">
+                                                        Services
+                                                        <span class="link-icon inline-flex hide-if-empty right-icon">
+                                                            <i class="lqd-icn-ess icon-ion-ios-arrow-down"></i>
+                                                        </span>
+                                                    </div>
+                                                    <div class="dropdown-content">
+                                                        <a href="faq.html">FAQ</a>
+                                                        <a href="advance-service.html">Services</a>
+
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <div class="search-icon mx-5" onclick="toggleSearchBar()">
+                                                <img src="https://cdn-icons-png.flaticon.com/512/149/149852.png"
+                                                    width="20">
+                                            </div>
+
+                                            <div class="search-container" id="searchContainer">
+                                                <input type="text" id="search-input" class="search-input"
+                                                    onkeyup="searchFunc()" placeholder="Search...">
+                                            </div>
+                                        </li>
+
+
                                     </ul>
+
+                                    <!-- <div class="dropdown">
+										<button class="dropbtn">Dropdown
+											<i class="fa fa-caret-down"></i>
+										</button>
+										<div class="dropdown-content">
+											<a href="#">Link 1</a>
+											<a href="#">Link 2</a>
+											<a href="#">Link 3</a>
+										</div>
+									</div> -->
                                 </div>
                             </div>
                         </div>
-                        <div class="w-auto flex -mr-5 ml-20 lg:hidden">
+
+                        <div class="w-auto flex -mr-5 ml-2 lg:hidden ">
                             <a href="#contact-modal"
                                 class="btn btn-solid btn-hover-txt-marquee btn-hover-txt-marquee-y btn-icon-right text-14 font-medium rounded-6 leading-30 bg-blue-200 text-blue-900 module-btn-sm"
                                 data-lity="#contact-modal">
-                                <span class="btn-txt" data-text="Get in Touch!" data-split-text="true"
+                                <span class="btn-txt whitespace-nowrap" data-text="Get in Touch!" data-split-text="true"
                                     data-split-options='{"type": "chars, words"}'>Get in Touch!</span>
                                 <span class="btn-icon m-0">
                                     <i aria-hidden="true" class="lqd-icn-ess icon-ion-ios-add"></i>
