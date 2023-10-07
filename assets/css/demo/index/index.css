@@ -832,9 +832,9 @@
   
   /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
   .accordion.active, .accordion:hover {
-	background-color: red;
-	opacity: 30%;
-	color: white;
+	background-color: #ECECFF;
+	/* opacity: 30%; */
+	color: #826FFF;
 	box-shadow: -10px 10px 12px -4px rgba(0, 0, 0, 0.10);
 
 
